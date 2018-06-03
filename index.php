@@ -20,7 +20,7 @@ require 'connect.php';
                         $VesselGRT = $row['VesselGRT'];
                     }
 
-                    $query_run2 = mysqli_query($db,"SELECT * FROM port WHERE PortName='Fangcheng'");
+                    $query_run2 = mysqli_query($db,"SELECT * FROM port WHERE PortName=''");
 
                     if ($query_run2) {
                         while($row_port = mysqli_fetch_array($query_run2)) {
