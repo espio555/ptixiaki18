@@ -32,6 +32,7 @@ require 'connect.php';
                         }
 
                         echo "The expenses of ".$VesselName." For it to go to ".$PortName." are: ".$VesselGRT*2;
+                        echo "check";
                     }
                 }
                 ?>
